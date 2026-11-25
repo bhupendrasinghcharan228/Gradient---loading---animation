@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    margin: 0;
+    padding: 40px;
+    background: #0b0f19;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    color: #ffffff;
+  }
+  .card {
+    background: #131a2a;
+    border: 1px solid #26324d;
+    border-radius: 20px;
+    padding: 36px 44px;
+    max-width: 820px;
+    width: 100%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+  }
+  .header p {
+    margin: 8px 0 0;
+    color: #94a3b8;
+    font-size: 15px;
+  }
+  .grid {
+    display: flex;
+    gap: 24px;
+  }
+  .box {
+    flex: 1;
+    border-radius: 14px;
+    padding: 24px;
+  }
+  .old-way {
+    background: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.35);
+  }
+  .new-way {
+    background: rgba(16, 185, 129, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+  }
+  .badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .old-badge {
+    background: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+  }
+  .new-badge {
+    background: rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #e2e8f0;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 13px;
+    color: #64748b;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1>How Anna Changes Working With AI</h1>
+      <p>From juggling disconnected tools to one unified workspace</p>
+    </div>
+    <div class="grid">
+      <div class="box old-way">
+        <span class="badge old-badge">❌ The Old Way</span>
+        <ul>
+          <li>• Switching between 5+ AI tabs daily</li>
+          <li>• Endless copy-pasting of prompts & context</li>
+          <li>• Manually managing complex AI agents</li>
+          <li>• Lost focus and fragmented workflow</li>
+        </ul>
+      </div>
+      <div class="box new-way">
+        <span class="badge new-badge">✅ The Anna Way</span>
+        <ul>
+          <li>• One shared AI-native messenger</li>
+          <li>• Tell Anna your goal in plain language</li>
+          <li>• Anna coordinates AI specialists for you</li>
+          <li>• You stay in control for key approvals</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">Built by Causis Research • Waitlist open at annaos.ai</div>
+  </div>
+</body>
+</html>
